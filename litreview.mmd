@@ -1,50 +1,46 @@
 title: PhD Literature Review
 date: 01/02/13
 
-Gravity currents 
-    Expressions for Froude number
-        single layer
-        linear
-        two layer
-    Life cycle
-        single layer
-        linear
-        two layer
-
-Relation to the field
-    Justify the two layer system
-        saharan air layer
-        other atmospheric
-        simple model (choi)
-    Dynamic similarity between lab and field
-        reynolds criterion
-        turbulence in g.c.
-    How do storms produce gravity currents?
-    How do storms produce waves?
-
-Internal waves
-    Linear theory
-    Taylor goldstein
-    modes
-    Convective initiation
-    nonlinear waves
-        KdV
-        BDO
-        amplitude limits
-    bores
-
-Turbulence in g.c.
-    Basic reynolds theory
-    Research to date on turbulence in g.c.
-
-Statistical methods
-    Multivariate stats
-    Autocorrelation
-    Ensembles (estimation theory)
-    DMD
-        basics
-        connection to other methods (a la Schmidt)
-    Wavelets
+- Gravity currents 
+    - Expressions for Froude number
+        - single layer
+        - linear
+        - two layer
+    - Life cycle
+        - single layer
+        - linear
+        - two layer
+- Relation to the field
+    - Justify the two layer system
+        - saharan air layer
+        - other atmospheric
+        - simple model (choi)
+    - Dynamic similarity between lab and field
+        - reynolds criterion
+        - turbulence in g.c.
+    - How do storms produce gravity currents?
+    - How do storms produce waves?
+- Internal waves
+    - Linear theory
+    - Taylor goldstein
+    - modes
+    - Convective initiation
+    - nonlinear waves
+        - KdV
+        - BDO
+        - amplitude limits
+    - bores
+- Turbulence in g.c.
+    - Basic reynolds theory
+    - Research to date on turbulence in g.c.
+- Statistical methods
+    - Multivariate stats
+    - Autocorrelation
+    - Ensembles (estimation theory)
+    - DMD
+        - basics
+        - connection to other methods (a la Schmidt)
+    - Wavelets
 
 
 Gravity currents
@@ -104,14 +100,39 @@ choice of a slip or free-slip boundary condition at the base.
 
 #### Lifecyle of a gravity current ####
 
-A gravity current originating from a constant initial volume goes
-through a number of stages, distinguished by their velocity time
-dependence
+A gravity current originating from a finite initial volume goes
+through a number of stages [#huppert-simpson1980, rottman-simpson1983, cantero-etal2007]:
+an *acceleration phase* where the initial volume collapses to the
+current; a *slumping phase* where the current is retarded by the
+counterflow into the lock, with a buoyancy flux from the lock ??physically
+correct?? wording??; an *inertial phase* where the current moves
+under the balance of inertial and buoyancy forces, with the buoyancy
+supplied from within the current; a *viscous phase* where viscous
+effects balance buoyancy.
 
-- Slumping (constant velocity)
+As the volume of dense fluid collapses to form the gravity current,
+lighter fluid must fill its place. The transition between the
+slumping and intertial stages occurs when the current is no longer
+affected by this counterflow. A disturbance on the dense-light
+interface, associated with the counterflow, initially propagates
+backwards to the symmetry plane of the lock where it is reflected.
+This disturbance travels faster than the current front and
+transition to the inertial phase occurs when it overtakes the
+current front [#rottman-simpson1983].
+
+These phases are distinguished by their velocity time dependence
+
+- Acceleration (short lived, rapid transition to slumping)
+- Slumping (approximately constant velocity)
 - Self-similar ($~t^{-1/3}$)
 - Viscous ($~t^{-4/5}$)
 
+[#amy-etal2005;] used Glycerol to control the Reynolds number of
+their flows through viscosity and found that laboratory currents
+with $Re < 1000$ undergo abrupt transitions between phases.
+
+[#huppert-simpson1980;] found that the current may transition
+directly from the slumping to the viscous phase.
 
 
 
